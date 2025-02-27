@@ -13,9 +13,9 @@ A simple Python script to compile an entire codebase into a single text file for
 Basic Usage (Default Output)
 Compile a codebase into a default file named after the directory:
 bash
-
+```
 python compile_codebase.py /path/to/your/codebase
-
+```
 Output: Saves to <codebase_name>_compiled.txt in the current directory.
 
 Example: For a directory myproject, it creates myproject_compiled.txt.
@@ -23,8 +23,8 @@ Example: For a directory myproject, it creates myproject_compiled.txt.
 Custom Output File
 Specify a custom output file:
 bash
-
+```
 python compile_codebase.py /path/to/your/codebase output.txt
-
+```
 Output: Saves to output.txt in the current directory.
 
